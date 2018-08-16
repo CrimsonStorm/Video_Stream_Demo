@@ -1,0 +1,79 @@
+p{
+        width 100%;
+}
+
+body{
+        background-color: #FFFFFF;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        align-items: center;
+        justify-content: center;
+        min-height: 98vh;
+}
+
+
+
+div{
+	display:flex;
+	flex-wrap: wrap;
+	max-width: 50vw;
+}
+
+
+
+#Welcome p{
+		text-align: center;
+		align-self: flex-end;
+        color: #814A3B;
+        font-size: 50px;
+        font-weight: 600;
+		margin-bottom: 20px;
+}
+
+#Under_Top{
+	flex-wrap: wrap;
+	max-width: 50vw;
+}
+
+.text{
+		text-align: center;
+        display:flex;
+        color: #814A3B;
+        font-size: 18px;
+        font-weight: 150px;
+        justify-content:center;
+        margin-top: 10px;
+}
+
+#VidPick{
+	flex-wrap: wrap;
+	max-width: 50vw;
+}
+
+
+#Video{
+        background-color: #814A3B;
+        color: #FFFFFF;
+        border: 1px solid #683B2E;
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-bottom: 5px;
+        padding-top: 5px;
+        font-size: 26px;
+        margin-bottom: 40px;
+}
+
+#HUC{
+	display: none;
+}
+
+#HUC p{
+		text-align: center;
+        display:flex;
+        color: #814A3B;
+        font-size: 18px;
+        font-weight: 150px;
+        justify-content:center;
+        margin-left: 32%;
+}

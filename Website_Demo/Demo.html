@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+	
+	<head>
+		<meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width"> 
+        <title>Video Demo</title>
+        <link rel="stylesheet" type="text/css" href="Demo.css">
+	</head>
+
+	<body>
+		<div id = "Welcome">
+			<p> Welcome to the Video Stream Demo</p>
+		</div>
+		
+		<div id = "Under_Top">
+			<p class = "text">This is a demo of a static page with a video that can be streamed to anyone. On a server with many videos to show, a database holding the videos and a script using GET requests from the database will be needed. </p>
+		</div>
+		
+		<div id = "VidPick">
+			<p class = "text"> Select Your Video Below </p>
+		</div>
+		
+		<div id = "Selection">
+			<button id = "Video" onclick = "showVideo()"> Video.mp4</button>
+		</div>
+		
+		<div id= "HUC">
+			<p> グレーンライツ  •  セレナーデ</p>
+		
+			<video width="800" height="400" controls>
+			  <source src="グレーンライツ＿セレナーデ.mp4" type="video/mp4">
+			  Your browser does not support the video tag.
+			</video>
+		</div>
+		
+		<div id = "Footer">
+			<p class = "text"> Demo by: Joseph Shaw </p>
+		</div>
+		
+		<script src = "Click.js"></script>
+	
+		
+	</body>
+
+</html>
